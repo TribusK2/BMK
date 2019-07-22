@@ -4,13 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Firs Page animation</title>
+    <title>First Page Animation</title>
     <style>
-       
+       body{
+           background-color: #ddd;
+       }
+       .line{
+           height: 10px;
+           background-color: #fff;
+           position: fixed;
+           width: 335px;
+           float: right;
+           right: 10vw;
+           bottom: 55px;
+           border: 1px solid #aaa;
+       }
+       .lineInside{
+           background-color:#222;
+           width: 337px;
+           position: fixed;
+           float: right;
+           right: 10vw;
+           bottom: 61px;
+           height: 1px;
+           margin: 0;
+           padding: 0;
+           filter: blur(2px);
+           z-index: 1
+       }
+       .cover{
+           background-color: #ddd;
+           position: fixed;
+           width: 337px;
+           height: 1000px;
+           float: right;
+           right: 10vw;
+           bottom: -940px;
+           z-index: 1;
+           border-top: 1px solid #aaa;
+       }
+       .textObject{
+            margin: 0px 10px 500px 10px;
+            background-color: #fff;
+            box-shadow: 5px 5px 10px #222;
+            position: relative;
+            top: 1000px;
+            float: right;
+            right: 10vw;
+            width: 300px;
+       }
+       .textObject>h2{
+           padding: 5px 10px;
+           margin: 0;
+       }
+       .textObject>p{
+           padding: 5px 10px;
+           margin: 0;
+       }
+       .clear{
+           clear: both;
+           content: "";
+           display: block;
+       }
     </style>
 </head>
 <body>
-
+    <div class="line">
+        <!-- <div class="lineInside"></div> -->
+    </div>
+    <div class="lineInside"></div>
+    <div class="clear"></div>
+    <div class="cover"></div>
+    <div class="textObject">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius cupiditate harum molestiae placeat expedita sit architecto aperiam quibusdam. Animi.</p>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius cupiditate harum molestiae placeat expedita sit architecto aperiam quibusdam. Animi.</p>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius cupiditate harum molestiae placeat expedita sit architecto aperiam quibusdam. Animi.</p>
+    </div>
+    <div class="clear"></div>
+    <div class="textObject">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius cupiditate harum molestiae placeat expedita sit architecto aperiam quibusdam. Animi.</p>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius cupiditate harum molestiae placeat expedita sit architecto aperiam quibusdam. Animi.</p>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius cupiditate harum molestiae placeat expedita sit architecto aperiam quibusdam. Animi.</p>
+    </div>
+    <div class="clear"></div>
+    <div class="textObject">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius cupiditate harum molestiae placeat expedita sit architecto aperiam quibusdam. Animi.</p>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius cupiditate harum molestiae placeat expedita sit architecto aperiam quibusdam. Animi.</p>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius cupiditate harum molestiae placeat expedita sit architecto aperiam quibusdam. Animi.</p>
+    </div>
     
     <script>
     
