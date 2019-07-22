@@ -7,24 +7,24 @@
     <title>First Page Animation</title>
     <style>
        body{
-           background-color: #ddd;
+           background-image: url("chains.jpg");
        }
-       .line{
-           height: 10px;
-           background-color: #fff;
+       .gap{
+           border: 1px solid #ccc;
            position: fixed;
-           width: 335px;
-           float: right;
-           right: 10vw;
-           bottom: 55px;
-           border: 1px solid #aaa;
+           height: 10px;
+           width: 339px;
+           right: 48px;
+           bottom: 59px;
+           background-color: #fff;
+           border-radius: 5px;
        }
-       .lineInside{
+       .shadow{
            background-color:#222;
            width: 337px;
            position: fixed;
            float: right;
-           right: 10vw;
+           right: 50px;
            bottom: 61px;
            height: 1px;
            margin: 0;
@@ -33,15 +33,15 @@
            z-index: 1
        }
        .cover{
-           background-color: #ddd;
            position: fixed;
            width: 337px;
            height: 1000px;
            float: right;
-           right: 10vw;
+           right: 50px;
            bottom: -940px;
            z-index: 1;
            border-top: 1px solid #aaa;
+           background: inherit;
        }
        .textObject{
             margin: 0px 10px 500px 10px;
@@ -50,7 +50,7 @@
             position: relative;
             top: 1000px;
             float: right;
-            right: 10vw;
+            right: 50px;
             width: 300px;
        }
        .textObject>h2{
@@ -69,10 +69,8 @@
     </style>
 </head>
 <body>
-    <div class="line">
-        <!-- <div class="lineInside"></div> -->
-    </div>
-    <div class="lineInside"></div>
+    <div class="gap"></div>
+    <div class="shadow"></div>
     <div class="clear"></div>
     <div class="cover"></div>
     <div class="textObject">
@@ -101,9 +99,5 @@
         <h2>Lorem ipsum dolor sit amet.</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius cupiditate harum molestiae placeat expedita sit architecto aperiam quibusdam. Animi.</p>
     </div>
-    
-    <script>
-    
-    </script>
 </body>
 </html>
